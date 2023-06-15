@@ -20,7 +20,7 @@
                     </div>
                     <div class="h1 mb-3"> DAFTAR BUKU </div>
                     <div class="d-flex mb-2">
-                      <div><a href="lihat.php">Lihat </a></div>
+                      <div><a href="index.php?page=tabel_buku">Lihat </a></div>
 
                     </div>
                     <div class="progress progress-sm">

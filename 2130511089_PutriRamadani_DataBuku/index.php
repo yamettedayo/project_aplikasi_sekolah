@@ -2,7 +2,7 @@
 session_start();
 
     
-// $konten = $_GET['page'];
+$konten = $_GET['page'];
 if(empty($konten)) $konten="kontencase";
 ?>
 

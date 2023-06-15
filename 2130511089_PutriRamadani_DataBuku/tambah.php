@@ -22,6 +22,8 @@ $databuku = $rows;
 
   // var_dump($rows);
 
+  
+
 ?>
 
 
@@ -54,7 +56,7 @@ $databuku = $rows;
     
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
-              <span class="navbar-brand mb-0 h1">Data Buku</span>
+              <span class="navbar-brand mb-0 h1">Tambah Buku</span>
             </div>
           </nav>
           <div class="container">
@@ -70,9 +72,8 @@ $databuku = $rows;
 
           <a href="tambah.php"><button type="button" class="btn btn-primary">Tambahkan Buku</button></a>
           
-
-
-        
           </div>
+
+          
     </body>
     </html>
