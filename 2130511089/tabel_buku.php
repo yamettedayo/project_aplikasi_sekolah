@@ -62,9 +62,9 @@
           <td><?= $buku['tahun_penerbit']; ?></td>
           <td><?= $buku['stok']; ?></td>
           <td style="text-align: center;">
-            <a href="index.php?page=edit_buku" class="btn btn-success btn-md">
+            <a href="index.php?page=edit_buku&actoins=edit&id=<?= $buku['id_buku']; ?>" class="btn btn-success btn-md">
             <span class="fa fa-edit"></span></a>
-            <a onclick="return confirm('Apakah yakin data akan di hapus?')" href="proses/crud.php?aksi=hapus&hapus id=<?php echo $isi['id_login'];?>" 
+            <a onclick="return confirm('Apakah yakin data akan di hapus?')" href="index.php?page=hapus_buku&actoins=hapus&id=<?= $buku['id_buku']; ?>"
             class="btn btn-danger btn-md"><span class="fa fa-trash"></span></a>
           </td>
         </tr>

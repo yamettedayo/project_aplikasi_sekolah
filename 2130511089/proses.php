@@ -12,7 +12,6 @@ if(isset($_POST['submit'])) {
     $tahun_penerbit = $_POST['tahun_penerbit'];
     $stok = $_POST['stok'];
 
-
     
     // Proses upload gambar
     $target_directory = "img/";
@@ -23,7 +22,7 @@ if(isset($_POST['submit'])) {
         // Query untuk menyimpan data buku ke tabel databuku
         
         $query = "INSERT INTO databuku (gambar_buku, kode_buku, judul_buku, penulis_buku, penerbit_buku, tahun_penerbit, stok) 
-                  VALUES ('$gambar_buku', '$kode_buku', '$judul_buku', '$penulis_buku', '$penerbit_buku', '$tahun_penerbit', '$stok')";
+                    VALUES ('$gambar_buku', '$kode_buku', '$judul_buku', '$penulis_buku', '$penerbit_buku', '$tahun_penerbit', '$stok')";
         
         if (mysqli_query($conn, $query)) {
             // Jika penyimpanan berhasil, alihkan ke halaman sukses atau halaman lain yang diinginkan
@@ -41,4 +40,9 @@ if(isset($_POST['submit'])) {
     // Tutup koneksi database
     mysqli_close($conn);
 }
+
+
+
+
+
 ?>
